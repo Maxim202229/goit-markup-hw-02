@@ -1,0 +1,213 @@
+:root{
+    --primery-text-style: "Roboto", sans-serif;
+    --secontary-text-style: "Raleway",sans-serif;
+    --logo-heder-color: #000000;
+    --logo-accent-color:#2196F3;
+    --second-accent-color:#188CE8;
+    --first-main-color: #212121;
+    --secondary-main-color: #757575;
+   --background-hero-color: #2F303A;
+   --hero-text-color:#ffffff;
+   --address-text-color:rgba(255, 255, 255, 0.6);
+   --background-our-team:#F5F4FA;
+}
+
+body{
+    font-family: var(--primery-text-style);
+    color: var(--first-main-color);
+    letter-spacing: 0.03em;
+    
+}
+.list {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+   
+
+.heder-logo {
+   font-family: var(--secontary-text-style); 
+   color: var(--logo-heder-color);
+
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+}
+.span-logo {
+    color: var(--logo-accent-color);
+}
+
+.nav-link{
+    color: var(--first-main-color);
+    font-family: var(--primery-text-style);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.current{
+    color: var(--logo-accent-color);
+}
+.contact{
+    color: var(--secondary-main-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--logo-accent-color); 
+}
+.contact:hover,
+.contact:focus{
+    color: var(--logo-accent-color);
+}
+.hero{
+    color:var(--hero-text-color);
+    text-transform: uppercase;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+.hero-title{
+    background-color: var(--background-hero-color);
+}
+.button-hero{
+    color: var(--hero-text-color) ;
+    background-color: var(--logo-accent-color);
+    cursor: pointer;
+    border: none;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+.button-hero:hover,
+.button-hero:focus {
+    background-color: var(--second-accent-color);
+}
+.hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px ;
+}
+
+
+.list-title {
+    text-transform: uppercase;
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+.list-paragraf{
+    color: var(--secondary-main-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+.work{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+}
+.team-titel{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.12;
+}
+.team-profession{
+    color: var(--secondary-main-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+
+}
+.address{
+    background-color: var(--background-hero-color);
+    
+}
+.address-logo{
+    color: var(--hero-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+
+}
+.address-map{
+    color: var(--hero-text-color);
+    font-family: var(--primery-text-style);
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.address-map:hover,
+.address-map:focus{
+    color: var(--logo-accent-color);
+}
+.address-contact{
+    color: var(--address-text-color);
+    font-family: var(--primery-text-style);
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.address-contact:hover,
+.address-contact:focus{
+    color: var(--logo-accent-color);
+}
+.button-list{
+    font-family: var(--primery-text-style);
+    color: var(--first-main-color);
+    background-color: var(--background-our-team);
+    cursor: pointer;
+    border: none;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.button-list:hover,
+.button-list:focus{
+    color:var(--hero-text-color) ;
+    background-color: var(--logo-accent-color);  
+}
+.project-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-item{
+    color: var(--secondary-main-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
