@@ -119,10 +119,12 @@ body{
 .list-paragraf{
     color: var(--secondary-main-color);
 
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 
+}
+.work-list-team{
+    background-color: var(--background-our-team);
 }
 .work{
 font-weight: 700;
@@ -137,7 +139,6 @@ line-height: 1.16;
 .team-profession{
     color: var(--secondary-main-color);
 
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
 
@@ -207,7 +208,6 @@ line-height: 1.16;
 .project-item{
     color: var(--secondary-main-color);
 
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
 }
